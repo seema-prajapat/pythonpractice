@@ -25,3 +25,14 @@ print(A[0:10])             #output = 0123456789
 print(A[2:10:3])          #output = 258
 print(A[::-3])            #output = 9630
 print(A[-7:2:-2])          #output = 3
+#4.length:- we can get the length of string using the Len() function.
+A = "Amanprajapat"
+print(len(A))             #output = 12
+#5.Membership:- we can check that a substring is exists in a string using (in or not in)operation.
+str = "India"
+print("I" in str)         #output = true
+print("N" in str)         #output = false
+#6. manipulation:- strings are immutable.
+str = "Radha"
+str = "w"+ str[1:]        #output = wadha
+print(str)
