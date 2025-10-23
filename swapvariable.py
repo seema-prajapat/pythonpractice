@@ -1,0 +1,5 @@
+a = int(input("Enter the value of the first variable (a):"))
+b = int(input("Enter the value of second variables (b):"))
+print(f"original values:a = {a},b = {b}")
+(a,b) = (b,a)
+print(f"swap values :a = {a},b = {b}")
