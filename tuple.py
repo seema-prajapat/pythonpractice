@@ -17,7 +17,7 @@ mixed = (12,3.14,"hello",False)
 print(mixed)                                   #output = (12,3.14,'hello',False)
 #A tuple containing a list(nested mutable object):-
 nested_tuple = (1,"world",[1,2,4,[7,8]])
-print(nested_tuple)                                  #output = (1,'world',[1,2,4,[7,8]])
+print(nested_tuple[-1][-1][0])                                  #output = (1,'world',[1,2,4,[7,8]])
 #important point:-
 #A single -element tuple requires a trailing comma(,) without it,python treats its as just the item itself,not tuple.
 single_tuple = (5)
